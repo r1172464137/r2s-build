@@ -1,7 +1,8 @@
 # OpenWrt编译
 -内含r2s和newifi3的固件编译
+## 取件说明
 -固件在wetransfer和牛奶快传
 
-## License
+### License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © P3TERX
