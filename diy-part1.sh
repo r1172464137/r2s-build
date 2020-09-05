@@ -11,3 +11,4 @@
 #
 
 git clone -b openwrt-18.06 https://github.com/r1172464137/feed-netkeeper package/feed-netkeeper
+wget https://raw.githubusercontent.com/r1172464137/r2s-build/main/1.patch 
