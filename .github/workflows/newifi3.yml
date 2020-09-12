@@ -20,7 +20,7 @@ on:
     paths:
       - 'newifi3.config'
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 19 * * 3
   watch:
     types: started
 
