@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 新三编译
+name: k2编译
 
 on:
   repository_dispatch:
