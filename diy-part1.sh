@@ -10,5 +10,6 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-git clone -b openwrt-18.06 https://github.com/r1172464137/feed-netkeeper package/feed-netkeeper
+git clone https://github.com/CCnut/feed-netkeeper package/feed-netkeeper
 wget https://raw.githubusercontent.com/r1172464137/r2s-build/main/1.patch 
+sed -i '$a src-git luci https://git.openwrt.org/project/luci.git;openwrt-19.07' feeds.conf.default
