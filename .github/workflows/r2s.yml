@@ -26,7 +26,7 @@ on:
 
 env:
   REPO_URL: https://github.com/project-openwrt/openwrt
-  REPO_BRANCH: openwrt-18.06-k5.4
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: r2s.config
   DIY_P1_SH: diy-part1.sh
@@ -78,7 +78,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a 
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds install -a && patch -p1 < 1.patch
 
     - name: Load custom configuration
       run: |
