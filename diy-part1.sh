@@ -12,4 +12,4 @@
 
 git clone https://github.com/CCnut/feed-netkeeper package/feed-netkeeper
 wget https://raw.githubusercontent.com/r1172464137/r2s-build/main/1.patch 
-sed -i '$a src-git luci https://git.openwrt.org/project/luci.git;openwrt-19.07' feeds.conf.default
+git clone https://github.com/garypang13/luci-theme-edge package/edge
