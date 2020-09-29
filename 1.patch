@@ -1,8 +1,8 @@
 diff --git a/package/lean/default-settings/files/zzz-default-settings b/package/lean/default-settings/files/zzz-default-settings
-index 9410e6cc85..b4bbbf5e38 100755
+index d4ada449fb..e85e385d72 100755
 --- a/package/lean/default-settings/files/zzz-default-settings
 +++ b/package/lean/default-settings/files/zzz-default-settings
-@@ -53,4 +53,6 @@ rm -f /tmp/luci-indexcache
+@@ -61,4 +61,6 @@ rm -f /tmp/luci-indexcache
  
  mv /etc/openwrt_banner /etc/banner
  
