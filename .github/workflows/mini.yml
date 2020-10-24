@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 红米ac2100 build
+name: mi-mini build
 
 on:
   repository_dispatch:
@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'rm2100.config'
+      - 'mini.config'
   schedule:
     - cron: 0 19 * * 1
   watch:
