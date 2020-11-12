@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mi-mini build
+name: box build
 
 on:
   repository_dispatch:
@@ -18,15 +18,15 @@ on:
     branches:
       - main
     paths:
-      - 'mini.config'
+      - 'box.config'
   schedule:
     - cron: 0 19 * * 1
   watch:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/project-openwrt/openwrt
+  REPO_BRANCH: openwrt-18.06-k5.4
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: rm2100.config
   DIY_P1_SH: diy-part1.sh
