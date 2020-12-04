@@ -9,7 +9,6 @@
 #
 
 name: ipq build
-
 on:
   repository_dispatch:
   release:
